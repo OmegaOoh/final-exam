@@ -1,4 +1,3 @@
-import copy
 import turtle
 import random
 
@@ -84,30 +83,30 @@ while choice not in [str(i) for i in range(1, 9)]:
     choice = input("Which art do you want to generate? Enter a number between 1 to 8, inclusive: ")
 
 if choice == '1':
-    d = Drawer(random.randint(25,35))
+    d = Drawer(random.randint(25, 35))
     d.rand_draw(3, False)
 elif choice == '2':
-    d = Drawer(random.randint(25,35))
+    d = Drawer(random.randint(25, 35))
     d.rand_draw(4, False)
 elif choice == '3':
-    d = Drawer(random.randint(25,35))
+    d = Drawer(random.randint(25, 35))
     d.rand_draw(5, False)
 elif choice == '4':
-    for i in range(3,6):
-        d = Drawer(random.randint(5,10))
+    for i in range(3, 6):
+        d = Drawer(random.randint(5, 10))
         d.rand_draw(i, False)
 elif choice == '5':
-    d = Drawer(random.randint(25,35))
+    d = Drawer(random.randint(25, 35))
     d.rand_draw(3, True)
 elif choice == '6':
-    d = Drawer(random.randint(25,35))
+    d = Drawer(random.randint(25, 35))
     d.rand_draw(4, True)
 elif choice == '7':
-    d = Drawer(random.randint(25,35))
+    d = Drawer(random.randint(25, 35))
     d.rand_draw(5, True)
 elif choice == '8':
     for i in range(3, 6):
-        d = Drawer(random.randint(5,10))
+        d = Drawer(random.randint(5, 10))
         d.rand_draw(i, True)
 
 # hold the window; close it by clicking the window close 'x' mark
