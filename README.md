@@ -1,5 +1,12 @@
-# final-exam
-- From the starting code, polygon_art.py, you are to write an OO program that generates different pieces of art works
-- Fork, then, clone this repo
-- Read the instructions given in the course's Google Classroom and start coding
-- Once you are done, push your final code to your Github repo and modify this README to report on the work you have done
+# Report
+- Change Procedural to OOP style of coding
+## Class
+### Vector
+Just to store Location in 1 object
+### Polygon
+Store All Data related to Polygon
+- Function to Draw Polygon
+- Function to Draw Embedded Polygon
+
+### Canvas
+- Random and Start Drawing Polygon(Create Polygon Object and use Draw Method)
